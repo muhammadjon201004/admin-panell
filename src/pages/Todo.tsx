@@ -5,7 +5,7 @@ import ApiTodos from '@/Api/Apitodos';
 function Todo() {
   const [todosItem, setTodosItem] = useState<number>(15);
   const [sort, setSort] = useState<string>("all");
-  const [filterId, setFilterId] = useState<boolean | "all">(false)
+  const [filterId, setFilterId] = useState<boolean | "all">("all")
 
   return (
 

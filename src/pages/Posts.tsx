@@ -1,5 +1,4 @@
 import ApiPosts from '@/Api/Api';
-import { div } from 'framer-motion/client';
 import React, { useState } from 'react'
 import {
   Modal,
@@ -9,7 +8,7 @@ import {
   ModalFooter,
   Button,
   useDisclosure,
-} from "@heroui/react";
+} from "@heroui/react"; 
 function Posts() {
   const {isOpen, onOpen, onOpenChange} = useDisclosure();
   const [col,setCol] = useState<number>(10)

@@ -16,7 +16,7 @@ function NavbarTs() {
           <Link className='text-xl'  to="/posts">
             Posts
           </Link>
-        </NavbarItem>
+        </NavbarItem> 
         <NavbarItem>
           <Link className='text-xl' color="foreground" to="Todos">
             Todos

@@ -17,4 +17,4 @@ export type IconSvgProps = SVGProps<SVGSVGElement> & {
     }, []);
     return api
 
-};
+}; 

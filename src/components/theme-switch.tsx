@@ -7,9 +7,9 @@ import { useTheme } from "@heroui/use-theme";
 import { SunFilledIcon, MoonFilledIcon } from "@/components/icons";
 
 export interface ThemeSwitchProps {
-  className?: string;
+  className?: string; 
   classNames?: SwitchProps["classNames"];
-}
+} 
 
 export const ThemeSwitch: FC<ThemeSwitchProps> = ({
   className,

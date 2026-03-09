@@ -5,7 +5,7 @@ export default function ApiTodos() {
     id: number,
     title: string,
     completed: boolean
-  }
+  } 
     const [api, setApi] = useState<todos[]>([]); 
     useEffect(() => {
       fetch('https://jsonplaceholder.typicode.com/todos')
